@@ -1,0 +1,655 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    border: 0;
+    box-shadow: 0
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #fff;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Roboto-Light", "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-size: 12px;
+}
+
+.mainContent {
+    padding: 0;
+    margin: 0
+}
+
+.text-center {
+    text-align: center;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    display: none;
+}
+
+.custom-carousel {
+    padding: 80px 40px;
+    background-color: #9cc8e1;
+}
+
+.custom-carousel h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #165396;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 320px;
+}
+
+.custom-carousel h3 b {
+    color: #083c6b;
+    display: block;
+    padding-top: 10px;
+}
+
+.custom-carousel .carousel-indicators .active {
+    background-color: #f58220;
+    border-color: #f58220;
+}
+
+.custom-carousel .carousel-indicators li {
+    background-color: #002e6b;
+    border: 1px solid #002e6b;
+}
+
+.custom-carousel .carousel-indicators {
+    bottom: -70px;
+}
+
+.headerArea {
+    margin: 10px 0;
+    height: 44px;
+    background-color: #fff;
+}
+
+/*Two Collapse CSS*/
+
+.custom-two-collapse-area {
+    padding: 0;
+    margin: 10px 0;
+}
+
+/*
+.custom-two-collapse-area .collapsed {
+    background-color: #fff!important;
+}
+*/
+
+.sectionOrangeTab,
+.sectionblueTab {
+    background-color: #f78320;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #fff;
+}
+
+.sectionblueTab {
+    background-color: #0074bd;
+}
+
+.orangeTab {
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.blueTab {
+    padding: 20px;
+    background-color: #0074bd;
+    color: #fff;
+    font-size: 20px;
+}
+
+.sectionOrangeTab .active .custom-arrows,
+.sectionblueTab .active .custom-arrows {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.orangeTab .custom-arrows,
+.blueTab .custom-arrows {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.orangeTab .right-side-icon,
+.blueTab .right-side-icon {
+    float: right;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: #000;
+    position: relative;
+    overflow: hidden;
+    top: -10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.orangeTab .right-side-icon img,
+.blueTab .right-side-icon img {
+    width: 40px;
+    position: relative;
+    top: -2px;
+}
+
+/*Key Benefit CSS*/
+
+.custom-key-benefits {
+    margin: 40px 0;
+    border-left: 4px solid #4689b4;
+    border-right: 4px solid #4689b4;
+}
+
+.custom-key-benefits h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #076098;
+    line-height: 40px;
+    padding: 45px 20px;
+    margin: 0
+}
+
+.custom-key-benefits-item {
+    float: left;
+    width: 100%;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.custom-key-benefits-item:hover {
+    transform: scale(1.1);
+}
+
+.keyBenefits-images {
+    border-radius: 100%;
+    background-color: #9cc8e1;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.keyBenefits-images img {
+    width: 100%;
+}
+
+.custom-key-benefits p {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 10px 0 0 0;
+    margin: 0
+}
+
+.pb0 {
+    padding-bottom: 0 !important;
+}
+
+/*How SWP Works CSS Start*/
+
+/*
+.custom-SWP-works {
+  margin: 0;
+  padding:0;
+}
+.custom-SWP-works .panel-group {
+  margin: 0;
+  padding:0;
+}
+*/
+
+/*
+.custom-SWP-works .collapsed {
+    background-color: #fff!important;
+}
+*/
+
+.custom-SWP-works .titleTab {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.custom-padding-top {
+    padding-top: 20px;
+}
+
+/*
+.custom-SWP-works .titleTab .text-title-area {
+    background-color: #ebebeb;
+    color: #f78320;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+.custom-SWP-works .titleTab .orangeLine {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 30px;
+    background-color: #f78320;
+    z-index: 1;
+}
+*/
+
+/*How SWP Works CSS End*/
+
+/*custom-accordion Start*/
+
+.custom-accordion {
+    padding: 10px 0;
+}
+
+.custom-tabbed-navigation {
+    position: relative;
+    padding: 10px 0;
+}
+
+.custom-cicles {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #9cc8e1;
+}
+
+.custom-tabbed-navigation .nav-tabs {
+    border: 0 none !important;
+}
+
+.custom-tabbed-navigation .nav-tabs > li.active > a,
+.custom-tabbed-navigation .nav-tabs > li.active > a:focus,
+.custom-tabbed-navigation .nav-tabs > li.active > a:hover {
+    border: 0 none !important;
+    color: #f78320;
+}
+
+.custom-tabbed-navigation .nav > li > a {
+    padding: 10px 25px;
+    font-size: 20px;
+}
+
+.custom-tabbed-navigation .custom-circle-img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #404040;
+    margin-right: 10px;
+    position: relative;
+    top: 3px;
+    text-align: center;
+}
+
+.custom-tabbed-navigation .custom-circle-img i {
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+
+.custom-tabbed-navigation .active .custom-circle-img {
+    background-color: #f78320;
+}
+
+.custom-tabbed-navigation .active .custom-circle-img i {
+    display: block;
+}
+
+.custom-tabbed-navigation ul {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li {
+    background: url(../images/bandcopy.jpg) repeat-x;
+    height: 210px;
+    padding: 0px;
+    padding-top: 3px;
+    background-position-x: -100px;
+    list-style-type: none;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li {
+    width: calc(25% - 18px);
+    float: left;
+    margin: 0 20px 20px 0;
+    border: 1px solid #d4d4d4;
+    border-top: 0;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li:last-child {
+    margin-right: 0;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li .listSocialMedia {
+    float: left;
+    width: 100%;
+    padding: 0 10px 10px 10px;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li .listSocialMedia a {
+    font-size: 20px !important;
+    float: left;
+    padding-right: 5px;
+}
+
+/*
+.custom-tabbed-navigation ul.tab-list-slider li .listSocialMedia span.seprated {
+    margin-top: 5px;
+    margin-right: 5px;
+    float: left;
+}
+.custom-tabbed-navigation ul.tab-list-slider li .listSocialMedia span.seprated ~ .fb-like.fb_iframe_widget {
+    padding-top: 2px;
+}
+*/
+
+.custom-tabbed-navigation ul.tab-list-slider li .listSocialMedia .fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    float: right;
+    top: 5px;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li div.imgBox {
+    height: 120px !important;
+    overflow: hidden;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li div.imgBox img {
+    max-width: 100%;
+    float: left;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li .listContent {
+    float: left;
+    width: calc(100% - 10px) !important;
+    padding: 10px 0 10px 10px !important;
+}
+
+.custom-tabbed-navigation ul.tab-list-slider li .listContent h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.loadMoreButton {
+    float: right;
+    padding: 0 0 15px 0;
+}
+
+.loadMoreButton a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #f08020;
+    border: 1px solid #f08020;
+    padding: 5px 10px;
+    margin: 0 5px !important;
+}
+
+.custom-accordion .custom-tabs-skyblue-bg .panel-title.collapsed .custom-arrows,
+.custom-accordion .custom-tabs-blue-bg .panel-title.collapsed .custom-arrows,
+.custom-accordion .custom-tabs-orange-bg .panel-title.collapsed .custom-arrows {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.custom-accordion .custom-tabs-skyblue-bg .panel-title .custom-arrows,
+.custom-accordion .custom-tabs-blue-bg .panel-title .custom-arrows,
+.custom-accordion .custom-tabs-orange-bg .panel-title .custom-arrows {
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*custom-accordion End*/
+
+/*custom-tabs-blue-bg Start*/
+
+.custom-tabs-blue-bg,
+.custom-tabs-skyblue-bg {
+    border-color: transparent !important;
+}
+
+.custom-tabs-skyblue-bg > .panel-heading,
+.custom-tabs-orange-bg > .panel-heading {
+    color: #fff !important;
+    padding: 0 !important;
+    background-color: #29aae3 !important;
+    border-color: transparent !important;
+}
+
+.custom-tabs-blue-bg > .panel-heading,
+.custom-tabs-orange-bg > .panel-heading {
+    color: #fff !important;
+    padding: 0 !important;
+    background-color: #037cc1 !important;
+    border-color: transparent !important;
+}
+
+.custom-tabs-skyblue-bg > .panel-heading .panel-title,
+.custom-tabs-blue-bg > .panel-heading .panel-title,
+.custom-tabs-orange-bg > .panel-heading,
+.panel-title {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.custom-tabs-orange-bg {
+    border-color: transparent !important;
+}
+
+.custom-tabs-orange-bg > .panel-heading {
+    background-color: #f78320 !important;
+}
+
+/*
+.custom-tabs-orange-bg .collapsed, .custom-tabs-blue-bg .collapsed{
+    background-color: #000!important;
+}
+*/
+
+.custom-tabs-orange-bg .custom-cicles {
+    background-color: #f78320 !important;
+}
+
+.custom-tabs-orange-bg .custom-cicles img {
+    width: 100%;
+}
+
+/*custom-tabs-blue-bg End*/
+
+.tab-content > .tab-pane {
+    padding: 10px;
+}
+
+.custom-box-area {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border: 0 none;
+}
+
+.panel-group .panel {
+    box-shadow: none;
+}
+
+/*Footer CSS Start*/
+
+.footerArea {
+    text-align: center;
+    width: 100%;
+}
+
+.footerArea .blueRow {
+    padding: 10px 0;
+    background-color: #0079c2;
+    color: #fff;
+}
+
+.footerArea .blueRow p {
+    padding: 0 0 5px 0;
+    margin: 0;
+    font-size: 11px;
+}
+
+.footerArea .defaultRow {
+    padding: 10px 0;
+}
+
+.footerArea .footer-images-place {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.footerArea a,
+.footerArea a:hover {
+    color: #fff;
+}
+
+.tax-advantage-content {
+    width: 200px;
+    display: inline-block;
+}
+
+.tax-advantage-count {
+    margin: 0 0 10px 0;
+}
+
+.tax-advantage-count span {
+    display: inline-block;
+    background-color: #9cc8e1;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*Footer CSS End*/
+
+@media only screen and (max-width: 768px) {
+    .custom-tabbed-navigation ul.tab-list-slider li {
+        width: calc(100% - 18px);
+    }
+    .footerArea,
+    .custom-form-dataList .accept-text {
+        font-size: 8px;
+        line-height: 12px;
+        display: inline-block;
+    }
+    .custom-carousel .carousel-indicators {
+        bottom: -30px;
+    }
+    .custom-key-benefits {
+        border: 0;
+        margin: 0 0 10px 0;
+    }
+    .custom-key-benefits h2 {
+        padding: 10px;
+    }
+    .custom-key-benefits-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .keyBenefits-images {
+        width: 100px;
+        height: 100px;
+    }
+    .custom-key-benefits p {
+        font-size: 16px;
+    }
+    .custom-SWP-works .titleTab .text-title-area {
+        font-size: 20px;
+    }
+    .custom-SWP-works .titleTab .orangeLine {
+        top: 24px;
+    }
+    .custom-tabbed-navigation .nav > li > a {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .custom-tabbed-navigation .custom-circle-img {
+        top: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .benefitBar {
+        font-size: 26px;
+        line-height: 66px;
+        padding: 40px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .footerArea {
+        font-size: 11px;
+    }
+}
