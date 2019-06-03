@@ -359,9 +359,9 @@ body {
 }
 
 .custom-tabbed-navigation ul.tab-list-slider li {
-    width: calc(25% - 18px);
+    /* width: 100%; */
     float: left;
-    margin: 0 20px 20px 0;
+    /* margin: auto 2rem; */
     border: 1px solid #d4d4d4;
     border-top: 0;
 }

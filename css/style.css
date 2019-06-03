@@ -369,3 +369,14 @@ button.slick-prev:hover {
     opacity: .75;
     color: black;
 }
+
+
+/* Slider Section */
+
+.articleItem{
+    /* min-width: 100% !important; */
+}
+
+.owl-item{
+    /* width: 100% !important; */
+}
